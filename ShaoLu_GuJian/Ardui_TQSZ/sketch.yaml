@@ -1,0 +1,14 @@
+# Arduino IDE 2.x 草图配置（sketch profiles）
+# 作用：把「开发板 + 分区方案 + 上传参数」固定下来 ——
+#   用 IDE 打开这个草图时会自动应用本配置，不用每次手动选，
+#   也防止别人选错分区方案导致 "Sketch too big" 报错。
+#
+# ⚠️ 你本机装的 esp32 core 必须是 3.3.6（工具 → 开发板管理器里核对）；
+#    版本不一致时 IDE 会提示安装这个版本，让它装即可。
+profiles:
+  esp32c3_huge_app:
+    fqbn: esp32:esp32:esp32c3:FlashSize=4M,FlashMode=dio,PartitionScheme=huge_app,CPUFreq=160,UploadSpeed=115200
+    platforms:
+      - platform: esp32:esp32 (3.3.6)
+        platform_index_url: https://espressif.github.io/arduino-esp32/package_esp32_index.json
+default_profile: esp32c3_huge_app

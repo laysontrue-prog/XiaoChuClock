@@ -1,0 +1,16 @@
+# ============ 不提交到 GitHub 的 ============
+
+# ① 你的私密文件（模板 secrets.h.example 才会上传）
+secrets.h
+我的私密信息-不要分享.md
+
+# ② 打包好的成品程序（体积大、含本机编译路径）
+#    发布方式：GitHub Releases 上传压缩包，或网盘分享
+Mac app/
+Win app/
+
+# ③ 系统/编辑器杂项
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
