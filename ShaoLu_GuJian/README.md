@@ -11,8 +11,8 @@
 
 | 平台 | 文件 | 说明 |
 |---|---|---|
-| macOS（Apple Silicon）| `小楚时钟-macOS-v1.0.0.zip` | 解压后把 .app 拖进「应用程序」；**首次右键 → 打开** |
-| Windows 10/11（64 位）| `小楚时钟-Windows-v1.0.0.exe` | 需要 WebView2 运行时（Win11 自带）|
+| macOS（Apple Silicon）| `XiaoChuClock-macOS-v1.0.0.zip` | 解压后把 .app 拖进「应用程序」；**首次右键 → 打开** |
+| Windows 10/11（64 位）| `XiaoChuClock-Windows-v1.0.0.exe` | 需要 WebView2 运行时（Win11 自带）|
 
 > 成品在仓库右侧 **Releases** 页面下载（源码仓库里不放二进制）。
 > 国内下载慢可在链接前加 `https://ghproxy.com/`
